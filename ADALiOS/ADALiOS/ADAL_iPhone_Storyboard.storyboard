@@ -41,13 +41,6 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" id="rFS-lD-Be8">
-                        <barButtonItem key="leftBarButtonItem" tag="106" systemItem="cancel" id="vgh-pA-bN7">
-                            <connections>
-                                <action selector="onCancel:" destination="GcB-iz-KCM" id="l5V-d4-iYe"/>
-                            </connections>
-                        </barButtonItem>
-                    </navigationItem>
                     <connections>
                         <outlet property="activityIndicator" destination="k7f-19-G6V" id="zvx-g1-Oin"/>
                         <outlet property="webView" destination="aQj-zZ-Grp" id="7Vs-Hq-TpS"/>
